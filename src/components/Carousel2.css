@@ -1,0 +1,9 @@
+.c2 img{
+    width: 100vw;
+    height: 30vh;
+}
+@media screen and (max-width:1040px){
+    .c2 img{
+        height: 20vh;
+    }
+}

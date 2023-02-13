@@ -1,0 +1,51 @@
+.map{
+    align-items: center;
+    margin: 5vh 0 1vh 0;
+}
+
+.map img{
+    width: 100vw;
+    height: 90vh;
+}
+.map .button1{
+    position: absolute;
+    margin-top: -10vh;
+    margin-left: 45vw;
+}
+
+
+.footer{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    width: 100vw;
+    height: 15vh;
+    align-items: center;
+}
+.footer p{
+    font-size: 1.2vw;
+}
+.footer .left{
+    margin-left: 5vw;
+}
+.footer .right{
+    margin-right: 5vw;
+}
+.footer .right .follow{
+    text-align: right;
+}
+
+
+@media screen and (max-width:1040px)
+{
+    .map img{
+        height: 60vh;
+    }
+    .footer{
+        height: 10vh;
+    }
+    .footer p{
+        font-size: 1.3vw;
+    }
+}

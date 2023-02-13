@@ -1,0 +1,14 @@
+.c3 img{
+    width: 100vw;
+    height: 60vh;
+    margin: 0 2vw;
+    margin-top: 5vh;
+}
+
+@media screen and (max-width:1040px)
+{
+    .c3 img{
+        width: 40vw;
+        height: 30vh;
+    }
+}

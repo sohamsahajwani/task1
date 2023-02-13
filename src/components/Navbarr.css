@@ -1,0 +1,56 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 3vh 2vw;
+   }
+
+   .nr a{
+    text-decoration: none;
+    color: white;
+    margin-left: 1vw;
+   }
+
+   .nf{
+    color: white;
+    z-index: 10;
+   }
+
+.nav-menu{
+    display: flex;
+    z-index: 10;
+}
+
+.hamburger{
+    display: none;
+}
+
+@media screen and (max-width:1040px) {
+    .nav-menu{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100vh;
+        background-color: rgba(0, 0, 0, 0.9);
+        position: absolute;
+        top: 0;
+        left: -100%;
+        z-index: 10;
+        transition: 0.3s;
+    }
+
+    .nav-menu.active{
+        left: 0;
+    }
+    .nr{
+        margin-top: 3vh;
+    }
+
+    .hamburger{
+        display: initial;
+        z-index: 10;
+        color: white;
+    }
+    
+}

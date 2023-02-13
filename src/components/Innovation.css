@@ -1,0 +1,160 @@
+.inn{
+    display: flex;
+    margin-top: 5vh;
+    align-items: center;
+}
+
+.inn .left{
+    width: 50vw;
+}
+
+.inn .left .box{
+    width: 35vw;
+    height: 50vh;
+    border: 0.2em solid red;
+    margin-top: 5vh;
+    margin-left: 10vw;
+}
+
+.inn .left img{
+    width: 35vw;
+    height: 50vh;
+    transition: 1s;
+}
+.inn .left img:hover{
+    transform: scale(1.08);
+    transition: 1s;
+}
+
+.inn .right{
+    width: 43vw;
+}
+
+.inn .left .ilb{
+    position: absolute;
+    margin-top: -55vh;
+    margin-left: 12.5vw;
+}
+
+.inn .right h2{
+    font-size: 3vw;
+}
+.inn .right p{
+    font-size: 1.5vw;
+}
+
+
+
+.sus{
+    display: flex;
+    margin-top: 5vh;
+    align-items: center;
+}
+
+.sus .right{
+    width: 50vw;
+}
+
+.sus .right .box{
+    width: 35vw;
+    height: 50vh;
+    border: 0.2em solid red;
+    margin-top: 5vh;
+    margin-left: 2.5vw;
+}
+
+.sus .right img{
+    width: 35vw;
+    height: 50vh;
+    transition: 1s;
+}
+.sus .right img:hover{
+    transform: scale(1.08);
+    transition: 1s;
+}
+
+.sus .left{
+    width: 40vw;
+    margin-left: 10vw;
+    padding-right: 2vw;
+    align-items: center;
+}
+
+.sus .right .ilb{
+    position: absolute;
+    margin-top: -55vh;
+}
+
+.sus .left h2{
+    font-size: 3vw;
+}
+.sus .left p{
+    font-size: 1.5vw;
+}
+
+
+
+.ic{
+    margin-top: 8vh;
+    text-align: center;
+}
+
+.ic img{
+    width: 90vw;
+    height: 40vh;
+}
+
+.ic .button1{
+    position: absolute;
+    margin-top: -8vh;
+    margin-left: 45vw;
+}
+
+
+
+.vop{
+    display: flex;
+    margin-top: 7vh;
+    align-items: center;
+}
+.vop .vopl{
+    width: 45vw;
+}
+
+.vop .vopl img{
+    width: 45vw;
+    height: 70vh;
+}
+.vop .vopr{
+    width: 50vw;
+    margin-left: 3vw;
+    padding-right: 10vw;
+}
+.vop .vopr p{
+    font-size: 1.5vw;
+}
+
+
+/* @media screen and (max-width:1040px){
+    .inn .left .box{
+        height: 35vh;
+    }
+    .inn .left img{
+        height: 35vh;
+    }
+    .sus .right .box{
+        height: 35vh;
+    }
+    .sus .right img{
+        height: 35vh;
+    }
+} */
+
+@media screen and (max-width:1040px){
+    .ic img{
+        height: 30vh;
+    }
+    .vop .vopl img{
+        height: 50vh;
+    }
+}

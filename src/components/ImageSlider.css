@@ -1,0 +1,82 @@
+.circle{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    width: 16vw;
+    height: 16vw;
+    border-radius: 8vw;
+    text-align: center;
+    position: absolute;
+    margin-top: -8vw;
+    z-index: 3;
+    background-color: white;
+    margin-left: 10vw;
+}
+.circle .bjj{
+    margin-top: 3vh;
+    font-size: 4vw;
+}
+.circle p{
+    font-size: 2vw;
+}
+
+.circle2{
+    border: 0.7vw solid rgb(217, 217, 2);
+    width: 24vw;
+    height: 24vw;
+    border-radius: 12vw;
+    position: absolute;
+    margin-top: -12vw;
+    z-index: 3;
+    margin-left: 5.5vw;
+}
+
+.image{
+    margin-top: -10vh;
+}
+
+.six-cr{
+    width: 55%;
+    margin-top: 5vh;
+    margin-left: 40vw;
+}
+
+.six-cr h3{
+    font-size: 2vw;
+}
+
+.six-cr p{
+    font-size: 1.4vw;
+}
+
+.six-cr .buttons{
+    display: flex;
+}
+
+.six-cr .buttons p{
+    font-size: 1.15vw;
+}
+
+.prnt{
+    display: flex;
+    margin: 8vh 5vw;
+    justify-content: space-between;
+}
+
+.prnt img{
+    width: 42vw;
+    height: 70vh;
+    transition: 1s;
+}
+.prnt img:hover{
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+.button1 p{
+    margin-top: 2vh;
+}
+
+@media screen and (max-width:1040px) {
+    .prnt img{
+        height: 50vh;
+    }
+}
